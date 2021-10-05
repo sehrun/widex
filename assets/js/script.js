@@ -1,5 +1,5 @@
 //кнопка меню
-$('.hp101,.hp102').click(function(){
+$('.hp100').click(function(){
 	$('.hp92').slideToggle();
 });
 //слайдер с товарами
@@ -48,12 +48,60 @@ $('.m,.mclose').click(function(){
 $('.hp80,.hp26,.hp6').click(function(){
 	$('.modal1').fadeIn();
 });
+//вызов второго модального окна
+$('.hp75,.hp167,.hp107').click(function(){
+	$('.modal2').fadeIn();
+});
+$('.hp166,.hp167').click(function(){
+	$('.hp165').fadeOut();
+});
 //маска телефона
 $(".phone-mask").mask('Z0 (000) 000-00-000', {translation: {'Z': {pattern: /\+/, optional: true}}});
 $(".phone-mask").focus(function(){
 	if($(this).val()=='')
 		$(this).val('+7 (');
 });
+//меню
+attachMenuClicks();
+$(window).on('resize', attachMenuClicks);
+function attachMenuClicks(){
+	$('.hp151').off('click');
+	if (screen.width <= 640) {
+		$('.hp151').click(function(e){
+			e.preventDefault();
+			$(this).toggleClass('active').next().slideToggle();
+		});
+	}
+}
+//поиск
+$('.hp155').hover(function(){
+	if (screen.width > 641){
+		$('.hp153').css('width', '30rem').attr('placeholder', 'Найдите услугу по названию');
+	}else{
+		$('.hp153').css('width', '100%');
+	}
+}, function(){
+	if (screen.width > 641) {
+		$('.hp153').css('width', '3.5rem').removeAttr('placeholder');
+	}else{
+		$('.hp153').css('width', '100%');
+	}
+});
+$('.hp154').click(function() {
+	window.location = '/search/index.php?s=&q=' + $('.hp153').val().trim();
+});
+$('.hp153').keydown( function(e) {
+	if (e.keyCode == 13) {
+		$('.hp154').click();
+	}
+});
+
+
+
+
+
+
+
 
 
 

@@ -1,135 +1,8 @@
-<!doctype html>
-<html lang="ru">
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>title</title> 
-
-
-<link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
-
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-<link href="assets/style.css" rel="stylesheet" />
-
-
-<div class="rootnoconflict">
-	<div class="hp104">
-		<div class="hp105">
-			<div class="hp107">
-				<i class="fas fa-map-marker-alt"></i><div class="hp109">Воронеж</div>
-			</div>
-			<div class="hp80 hp108">Записаться на прием</div>
-		</div>
-		<div class="hp106">
-			<div class="hp110">
-				<div class="hp11">
-					<img class="hp12" src="assets/img/23.png">
-					<div class="hp13">
-					ЦЕНТР<br>
-					<b>СЛУХА</b><br>
-					ВИДЭКС
-					</div>
-				</div>
-			</div>
-			<a class="hp111"><i class="fab fa-whatsapp"></i></a>
-			<a class="hp112"><i class="fas fa-phone-alt"></i></a>
-			
-			<div class="hp117"><a class="hp113" href="#"><i class="fas fa-shopping-cart"></i></a>
-			<div class="hp114">1</div>
-			<div class="hp115"></div>
-			<a href="#" class="hp116"><i class="fas fa-user"></i></a></div>
-			
-		</div>
-	</div>
-	<div class="hp103">
-		<div class="hp72 cwidth">
-			<div class="hp73">
-				<div class="hp11">
-					<img class="hp12" src="assets/img/23.png">
-					<div class="hp13">
-					ЦЕНТР<br>
-					<b>СЛУХА</b><br>
-					ВИДЭКС
-					</div>
-				</div>
-			</div>
-			<div class="hp74">
-				<i class="fas fa-map-marker-alt"></i>
-				<div class="hp75">
-					<div class="hp76">Ваш город</div>
-					<div class="hp77">Воронеж</div>
-				</div>
-			</div>
-			<div class="hp78">
-				<div class="hp81"><a class="hp79"><i class="fab fa-whatsapp"></i>8 800 200-93-02</a><div class="hp82">c 9:00 до 20:00</div></div>
-				<div class="hp80">Записаться на прием</div>
-			</div>
-			<div class="hp83">
-				<a class="hp84" href="/personal/cart/">
-					<div class="hp86">
-						<div class="hp90">Корзина</div>
-						<div class="hp91">1 позиция</div>
-					</div>
-					<i class="fas fa-shopping-cart hp87"></i>
-				</a>
-				<a class="hp85" href="/auth/">
-					<div class="hp88">Личный кабинет</div>
-					<i class="fas fa-user hp89"></i>
-				</a>
-			</div>
-		</div>
-	</div>
-	<div class="hp100">
-		<i class="fas fa-bars hp101"></i>
-		<div class="hp102">Меню</div>
-	</div>
-	<div class="hp92">
-		<div class="hp93 cwidth">
-			<div class="hp94">
-				<div class="hp96">
-					<a href="#" class="hp97">Слуховые аппараты<i class="fas fa-chevron-right"></i></a>
-					<div class="hp98">
-						<a href="#" class="hp99">Widex</a>
-						<a href="#" class="hp99">Signia</a>
-					</div>
-				</div>
-				<div class="hp96">
-					<a href="#" class="hp97">Аксессуары</a>
-				</div>
-				<div class="hp96">
-					<a href="#" class="hp97">Услуги</a>
-				</div>
-				<div class="hp96">
-					<a href="#" class="hp97">О компании<i class="fas fa-chevron-right"></i></a>
-					<div class="hp98">
-						<a href="#" class="hp99">Widex</a>
-						<a href="#" class="hp99">Новости</a>
-						<a href="#" class="hp99">Вакансии</a>
-						<a href="#" class="hp99">Доставка и оплата</a>
-					</div>
-				</div>
-				<div class="hp96">
-					<a href="#" class="hp97">Полезное</a>
-				</div>
-				<div class="hp96">
-					<a href="#" class="hp97">Акции<i class="fas fa-chevron-right"></i></a>
-					<div class="hp98">
-						<a href="#" class="hp99">Widex</a>
-						<a href="#" class="hp99">Signia</a>
-					</div>
-				</div>				
-				<div class="hp96">
-					<a href="#" class="hp97">Контакты</a>
-				</div>				
-			</div>
-			<div class="hp95"></div>
-		</div>
-	</div>
+<?include 'assets/header.php'?>
 	
 	<div class="hp71">
 		<div class="hp67 cwidth">
-			<div class="hp68">Слуховые аппараты<br>WIDEX и SIGNIA</div>
+			<h1 class="hp68">Слуховые аппараты<br>WIDEX и SIGNIA</h1>
 			<div class="hp69">Почувствуйте радость общения</div>
 			<a class="hp70" href="/catalog/">Подобрать слуховой аппарат</a>
 		</div>
@@ -167,7 +40,7 @@
 	<div class="hp46">
 		<div class="hp47 cwidth">
 			<div class="hp48">
-				<div class="hp49">Центры слуха Widex — забота на каждом этапе</div>
+				<h2 class="hp49">Центры слуха Widex — забота на каждом этапе</h2>
 				<a class="hp50" href="#">Все услуги <i class="fas fa-caret-right"></i></a>
 			</div>
 				<div class="hp54"><a class="hp51" href="#">
@@ -198,7 +71,7 @@
 	</div></div>
 	
 	<div class="hp127">
-		<div class="cwidth"><div class="hp31">Слуховые аппараты и аксессуры</div>
+		<div class="cwidth"><h2 class="hp31">Слуховые аппараты и аксессуры</h2>
 		<div class="hp128">
 			<div class="hp129">
 				<a class="hp130" href="#">
@@ -292,17 +165,17 @@
 		<div class="hp30 cwidth">
 			<div class="hp31">Спецпредложения и акции</div>
 			<div class="hp32">
-				<div class="hp33">
+				<a class="hp33" href="#">
 					<img src="assets/img/22.svg" class="hp37">
 					<div class="hp36">
 						Дарим <b>подарки</b> <br>
 						<b>при покупке</b> слуховых <br>
 						аппаратов <b>Signia</b>
 					</div>
-				</div>
-				<div class="hp34">
+				</a>
+				<a class="hp34" href="#">
 					<div class="hp35"><b>Специальные цены</b> <br>и подарки при покупке <br>слуховых аппаратов <br><b>Widex</b></div>
-				</div>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -334,7 +207,7 @@
 	<div class="hp118">
 		<div class="hp119 cwidth">
 			<div class="hp120">
-				<div class="hp121">Отзывы о нашей работе</div>
+				<h2 class="hp121">Отзывы о нашей работе</h2>
 				<a class="hp122" href="#">Оставить отзыв</a>
 			</div>
 			<div class="hp125">
@@ -354,7 +227,7 @@
 	
 	<div class="hp18">
 		<div class="hp19 cwidth">
-			<div class="hp20">5 шагов по подбору слухового аппарата</div>
+			<h2 class="hp20">5 шагов по подбору слухового аппарата</h2>
 			<div class="hp21">
 				<div class="hp22">
 					<div class="hp28">
@@ -400,85 +273,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="hp9">
-		<div class="hp10 cwidth">
-			<div class="hp11">
-				<img class="hp12" src="assets/img/1.png">
-				<div class="hp13">
-				ЦЕНТР<br>
-				<b>СЛУХА</b><br>
-				ВИДЭКС
-				</div>
-			</div>
-			<div class="hp14">
-				<div class="hp15">
-					<a href="#" class="hp17">Слуховые аппараты </a>
-					<a href="#" class="hp17">Аксессуары</a>
-					<a href="#" class="hp17">Услуги</a>
-					<a href="#" class="hp17">О компании </a>
-					<a href="#" class="hp17">Полезное</a>
-					<a href="#" class="hp17">Акции</a>
-					<a href="#" class="hp17">Контакты</a>
-				</div>
-				<div class="hp16">
-					<a href="#" class="hp17">Сайт представительства Widex</a>
-					<a href="#" class="hp17">Политика конфиденциальности</a>				
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="hp1">
-		<div class="hp2 cwidth">
-			<div class="hp3">© Слуховые аппараты Widex, 1956-2021</div>
-			<div class="hp4">
-				<a class="hp7" href="https://vk.com" rel="nofollow" target="_blank"><i class="fab fa-vk"></i></a>
-				<a class="hp7" href="https://instagram.com" rel="nofollow" target="_blank"><i class="fab fa-instagram"></i></a>
-			</div>
-			<div class="hp5"><a href="tel:88002009302" class="hp8"><i class="fas fa-phone-alt"></i><span>8 800 200-93-02</span></a></div>		
-			<div class="hp6">Записаться на прием</div>
-		</div>
-	</div>
-	
-	<div class="m modal1">
-		<div class="minner">
-		<i class="fas fa-times hp144 mclose"></i>
-		<form class="hp143">
-				
-				<div class="hp145">Записаться на прием</div>
-				
-				<label class="hp146">
-					<div class="hp147">Имя</div>
-					<input type="text" class="input1" name="notName" placeholder="Ваше имя" >
-				</label>
-				<label class="hp146">
-					<div class="hp147">Телефон *</div>
-					<input type="text" class="input1 phone-mask" name="notPhone" placeholder="Телефон" >
-				</label>				
-				<label class="hp146">
-					<div class="hp147">Комментарий</div>
-					<textarea class="textarea1" name="notComment"></textarea>
-				</label>				
-				<div class="hp148 hp122">Записаться</div>
-
-				<div class="hp149">Нажимая на кнопку «Записаться», вы соглашаетесь с <a href="#" target=_blank class="hp150">правилами использования и обработки персональных данных</a></div>
-				<input type="hidden" name="formName" value="">
-		</form>
-		
-		</div>
-	</div>
-</div>
-
-<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>	
-<script src="assets/js/jquery.mask.js"></script>
-<script src="assets/js/script.js"></script>
-
-
-</html>
-
+<?include 'assets/footer.php'?>
 	
 			
 
