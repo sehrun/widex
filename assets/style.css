@@ -1147,7 +1147,7 @@ a:hover {
 .pa15 {font-size: 1rem;margin: 0 1em;}
 
 .pa16 {
-    
+    box-shadow: 0px 2px 8px 3px rgba(233, 233, 233, 0.4);
 }
 
 .pa17 {display: inline;}
