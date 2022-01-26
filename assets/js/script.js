@@ -2,7 +2,7 @@
 $('.hp100').click(function(){
 	$('.hp92').slideToggle();
 });
-//слайдер с товарами
+//слайдер с отзывами
 $('.hp123').slick({
   centerMode: true,
   centerPadding: '5rem',
@@ -21,22 +21,7 @@ nextArrow: $('.hp125 .hp126 .fa-chevron-right'),
     }
   ]
 });
-//слайдер с отзывами
-$('.hp129').slick({
-  dots:false,
-  infinite:true,
-  slidesToShow: 4,
-prevArrow: $('.hp128 .hp126 .fa-chevron-left'),
-nextArrow: $('.hp128 .hp126 .fa-chevron-right'),   
-  responsive: [
-    {
-      breakpoint: 640,
-      settings: {
-        slidesToShow: 2
-      }
-    }
-  ]
-});
+
 //модальное окно
 $('.minner').click(function(e){
 	e.stopPropagation();
@@ -95,13 +80,61 @@ $('.hp153').keydown( function(e) {
 		$('.hp154').click();
 	}
 });
+//карточка товара
+$('.pa30').click(function(){
+	$(this).siblings().removeClass('active').end().addClass('active');
+});
+function makeTabs(wrapper,btnSelector,tabSelector){
+  $(wrapper).on('click',btnSelector,function(e){
+    if($(this).is('.active')) return;
+    var i = $(this).index(btnSelector);
+    $(btnSelector+'.active').removeClass('active');
+    $(tabSelector+'.active').removeClass('active');
+    $(btnSelector).eq(i).addClass('active');
+    $(tabSelector).eq(i).addClass('active');
+  });
+}
+makeTabs('.pa32','.pa35','.pa36');
 
+//Slider Syncing
+$('.pa54').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.pa48'
+});
+$('.pa48').slick({
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  asNavFor: '.pa54',
+  vertical: true,
+  focusOnSelect: true,
+prevArrow: $('.pa49'),
+nextArrow: $('.pa52')
+});
 
-
-
-
-
-
-
-
-
+//слайдер с товарами
+//если поставить выше, то сломается responsive
+$('.hp129').slick({
+  dots:false,
+  infinite:true,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  /*mobileFirst:true, wtf*/
+prevArrow: $('.hp128 .hp126 .fa-chevron-left'),
+nextArrow: $('.hp128 .hp126 .fa-chevron-right'),   
+  responsive: [
+    {
+      breakpoint: 640,
+      settings: {
+		slidesToShow: 2,
+		slidesToScroll: 2,
+		centerMode: false
+      }
+    }
+  ]
+});
+//https://github.com/fancyapps/fancybox/issues/2078
+//чтобы клик снаружи закрывал окно
+$.fancybox.defaults.mobile = {};

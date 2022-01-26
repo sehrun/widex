@@ -10,6 +10,7 @@
 
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <link href="assets/style.css?<?=date('his')?>" rel="stylesheet" />
 
 
@@ -24,7 +25,7 @@
 		<div class="hp106">
 			<div class="hp110">
 				<div class="hp11">
-					<img class="hp12" src="assets/img/23.png">
+					<img class="hp12" src="assets/img/logoBlack.png">
 					<div class="hp13">
 					ЦЕНТР<br>
 					<b>СЛУХА</b><br>
@@ -46,7 +47,7 @@
 		<div class="hp72 cwidth">
 			<div class="hp73">
 				<div class="hp11">
-					<img class="hp12" src="assets/img/23.png">
+					<img class="hp12" src="assets/img/logoBlack.png">
 					<div class="hp13">
 					ЦЕНТР<br>
 					<b>СЛУХА</b><br>
