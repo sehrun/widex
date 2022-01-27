@@ -48,7 +48,7 @@
 					</div>
 				</div>
 				<div class="pa23">22 000 ₽</div>
-				<div class="pa24 blueButtonFW">Заказать консультацию</div>
+				<div class="pa24 blueButtonFW">Записаться на примерку</div>
 				<div class="pa25">
 	<div class="pa26"><i class="fas fa-check-circle"></i><div class="pa31">Программа <span>компенсации</span></div></div>
 	<div class="pa26"><i class="fas fa-check-circle"></i><div class="pa31">Беспроцентная <span>рассрочка</span></div></div>
@@ -58,10 +58,10 @@
 			</div>
 			<div class="pa32">
 				<div class="pa33">
-					<div class="pa35 active">О товаре</div>
-					<div class="pa35">Характеристики</div>
-					<div class="pa35">Сертификаты</div>
-					<div class="pa35">Отзывы</div>
+					<div class="pa35 active"><span>О товаре</span></div>
+					<div class="pa35"><span>Характеристики</span></div>
+					<div class="pa35"><span>Сертификаты</span></div>
+					<div class="pa35"><span>Отзывы</span></div>
 				</div>
 				<div class="pa34">
 					<div class="pa36 active">
@@ -115,7 +115,7 @@
 					</div>
 				</div>
 				<div class="pa23">22 000 ₽</div>
-				<div class="pa24 blueButtonFW">Заказать консультацию</div>
+				<div class="pa24 blueButtonFW">Записаться на примерку</div>
 				<div class="pa25">
 	<div class="pa26"><i class="fas fa-check-circle"></i><div class="pa31">Программа <span>компенсации</span></div></div>
 	<div class="pa26"><i class="fas fa-check-circle"></i><div class="pa31">Беспроцентная <span>рассрочка</span></div></div>
