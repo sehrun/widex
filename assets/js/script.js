@@ -95,6 +95,7 @@ function makeTabs(wrapper,btnSelector,tabSelector){
   });
 }
 makeTabs('.pa32','.pa35','.pa36');
+makeTabs('.pc16','.pc13','.pc14');
 
 //Slider Syncing
 $('.pa54').slick({
@@ -138,3 +139,40 @@ nextArrow: $('.hp128 .hp126 .fa-chevron-right'),
 //https://github.com/fancyapps/fancybox/issues/2078
 //чтобы клик снаружи закрывал окно
 $.fancybox.defaults.mobile = {};
+
+
+if($('#pc11').length){
+	var latitude =  $('#pc11').data('latitude');
+	var longitude =  $('#pc11').data('longitude');
+	var icon =  $('#pc11').data('icon');
+	
+	ymaps.ready(function init() {
+		 var Ymap = new ymaps.Map('pc11',{
+				center: [latitude, longitude],
+				zoom: 16,
+				controls: ['zoomControl','fullscreenControl', 'typeSelector'],
+		});
+										
+		var office = new ymaps.Placemark([latitude, longitude], {
+			hintContent: null,
+			balloonContent: "Widex"
+		}, {
+			iconLayout: 'default#image',
+			iconImageHref: icon,
+			iconImageSize: [60, 81],
+			iconImageOffset: [-25, -71]
+		});
+			
+		Ymap.geoObjects.add(office);
+		Ymap.behaviors.disable('scrollZoom');		
+	});				
+}
+
+
+
+
+
+
+
+
+
