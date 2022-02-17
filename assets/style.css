@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* pc1 */
+/* pc? */
 @font-face {
     font-family: 'Gotham Pro';
     src: url(fonts/GothaProReg.otf);
@@ -2112,12 +2112,18 @@ a:hover {
 	.pc4{
     margin: 1.6rem 0 2rem;
 }
-	.pc5{}
+	.pc5{
+    font-size: 1.8rem;
+}
 	.pc6{}
 	.pc7{}
 	.pc8{}
 	.pc9{}
-	.pc10{}
+	.pc10{
+    font-size: 1.8rem;
+}
+    .pc10 h3{font-size:2rem}
+    .pc10 h4{font-size: 1.8rem;}
 	.pc11{}
 	.pc12{}
 	.pc13{
