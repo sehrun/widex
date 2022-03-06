@@ -168,7 +168,10 @@ if($('#pc11').length){
 	});				
 }
 
-
+//Услуги Widex
+$('.pd8action').click(function(){
+	$(this).parent().toggleClass('active');
+});
 
 
 

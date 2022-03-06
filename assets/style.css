@@ -1,11 +1,15 @@
 @charset "UTF-8";
-/* pc? */
+/* pd? */
 @font-face {
     font-family: 'Gotham Pro';
     src: url(fonts/GothaProReg.otf);
     font-weight: 400
 }
-
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url(fonts/GothaProMed.otf);
+    font-weight: 500
+}
 @font-face {
     font-family: 'Gotham Pro';
     src: url(fonts/GothaProBol.otf);
@@ -1069,6 +1073,7 @@ a:hover {
     display: table;
     font-size: 1.2rem;
     cursor:pointer;
+    font-weight: 500;
 }
 .hp80:hover {
     background: #0071b5;
@@ -1534,6 +1539,105 @@ a:hover {
     font-weight: bold;
 }
 .pc24{}
+
+.pd1{
+    background: #f9f9f9;
+    box-shadow: 0px 2px 4px 2px rgba(233, 233, 233, 0.4);
+    margin: 2rem 0;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 2.5rem;
+    padding-right: 3.5rem;
+}
+.pd2{}
+.pd3{
+    border-radius: 50%;
+}
+.pd4{
+    padding: 0 3rem;
+    flex-grow: 1;
+}
+.pd5{
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin: 1rem 0 0;
+}
+.pd6{
+    font-size: 1.6rem;
+    margin: 2.2rem 0;
+    min-height: 3.9rem;
+    line-height: 1.2;
+}
+.pd7{
+    display: none;
+    padding: 1rem 0 4.5rem;
+}
+.pd8{
+    color: #09d;
+    align-self: flex-start;
+    position: relative;
+    top: 4rem;
+    cursor: pointer;
+    min-width: 5rem;
+    user-select: none;
+}
+.pd8:hover{color: #0071b5;}
+.pd9{
+    font-size: 5rem;
+    /* position: relative; */
+    /* top: 4.6rem; */
+}
+.pd10{
+    display: none;
+    font-size: 1rem;
+}
+.pd1.active .pd9{transform: rotate(180deg);}
+.pd1.active .pd10{/* transform:rotate(90deg) */display: block;}
+.pd1.active .pd7{display:block}
+
+.pd11{
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-bottom: 1px solid #cccc;
+    padding: 1.2rem 0 1.1rem;
+    justify-content: space-between;
+}
+.pd12{
+    padding-right: 1rem;
+}
+.pd13{
+    flex-shrink: 0;
+}
+.pd14{}
+.pd15{}
+.pd16{}
+.pd17{}
+.pd18{}
+.pd19{}
+
+.pd20{}
+.pd21{}
+.pd22{}
+.pd23{}
+.pd24{}
+.pd25{}
+.pd26{}
+.pd27{}
+.pd28{}
+.pd29{}
+
+.pd30{}
+.pd31{}
+.pd32{}
+.pd33{}
+.pd34{}
+.pd35{}
+.pd36{}
+.pd37{}
+.pd38{}
+.pd39{}
+
 /*------------------------------------*\
 	axd 
 \*------------------------------------*/
@@ -1549,6 +1653,47 @@ a:hover {
 }
 
 @media (max-width: 1010px) {
+	.pd1{}
+.pd2{}
+.pd3{}
+.pd4{}
+.pd5{}
+.pd6{}
+.pd7{}
+.pd8{}
+.pd9{}
+.pd10{}
+.pd11{}
+.pd12{}
+.pd13{}
+.pd14{}
+.pd15{}
+.pd16{}
+.pd17{}
+.pd18{}
+.pd19{}
+
+.pd20{}
+.pd21{}
+.pd22{}
+.pd23{}
+.pd24{}
+.pd25{}
+.pd26{}
+.pd27{}
+.pd28{}
+.pd29{}
+
+.pd30{}
+.pd31{}
+.pd32{}
+.pd33{}
+.pd34{}
+.pd35{}
+.pd36{}
+.pd37{}
+.pd38{}
+.pd39{}
 		.pc17{}
 .pc18{}
 .pc19{}
@@ -2081,6 +2226,64 @@ a:hover {
 }
 
 @media (max-width: 762px) {
+	.pd1{
+    flex-direction: column;
+    align-items: center;
+}
+.pd2{}
+.pd3{}
+.pd4{
+    padding: 0;
+}
+.pd5{
+    text-align: center;
+    font-size: 2.8rem;
+}
+.pd6{
+    font-size: 1.8rem;
+}
+.pd7{}
+.pd8{
+    align-self: center;
+    position: static;
+}
+.pd9{
+    font-size: 7rem;
+}
+.pd10{
+    font-size: 1.4rem;
+}
+.pd11{}
+.pd12{}
+.pd13{}
+.pd14{}
+.pd15{}
+.pd16{}
+.pd17{}
+.pd18{}
+.pd19{}
+
+.pd20{}
+.pd21{}
+.pd22{}
+.pd23{}
+.pd24{}
+.pd25{}
+.pd26{}
+.pd27{}
+.pd28{}
+.pd29{}
+
+.pd30{}
+.pd31{}
+.pd32{}
+.pd33{}
+.pd34{}
+.pd35{}
+.pd36{}
+.pd37{}
+.pd38{}
+.pd39{}
 		.pc17{
     align-self: self-start;
     /* margin-left: 3rem; */
@@ -2180,7 +2383,7 @@ a:hover {
     display: none;
 }
 .pa42{}
-.pa42 h3{font-size:2.4rem}
+.pa42 h3{font-size: 2.6rem;}
 .pa42 p{font-size:1.8rem}
 .pa43{
     padding: 0.7em 2em;
@@ -2597,6 +2800,7 @@ a:hover {
     }
 
     .hp17 {
+    font-size: 1.6rem;
     }
 
     .hp18 {
