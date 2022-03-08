@@ -21,7 +21,7 @@
 			</a>			
 			<div class="pd18">
 				<div class="pd19">Изготовление индивидуальных берушей и гидроплагов (акваплагов)</div>
-				<div class="pd20">Стоимость: <span>2 000 Р</span></div>
+				<div class="pd20">Стоимость: <span>2 000 ₽</span></div>
 				<div class="blueButton">Заказать</div>
 			</div>
 		</div>

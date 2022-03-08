@@ -14,8 +14,8 @@
 <div class="pc16">
 	<div class="cwidth">
 		<div class="pd1">
-			<div class="pd2"><img class="pd3" src="assets/img/pd1.png"></div>
-			<div class="pd4">
+			<div class="pd2"><a href="/widex/page6.php"><img class="pd3" src="assets/img/pd1.png"></a></div>
+			<div class="pd4 pd8action">
 				<div class="pd5">Консультации</div>
 				<div class="pd6">В центрах слуха Видэкс консультации по методам реабилитации, выбору <br>и обслуживанию слухового аппарата оказывают профессиональные врачи.</div>
 				<div class="pd7">
@@ -48,8 +48,8 @@
 			<div class="pd8 pd8action"><i class="fa fa-chevron-down pd9"></i><div class="pd10">свернуть</div></div>
 		</div>	
 		<div class="pd1">
-			<div class="pd2"><img class="pd3" src="assets/img/pd2.png"></div>
-			<div class="pd4">
+			<div class="pd2"><a href="/widex/page6.php"><img class="pd3" src="assets/img/pd2.png"></a></div>
+			<div class="pd4 pd8action">
 				<div class="pd5">Производство</div>
 				<div class="pd6">Производим вкладыши и беруши для слуховых аппаратов по индивидуальным размерам.</div>
 				<div class="pd7">
@@ -82,8 +82,8 @@
 			<div class="pd8 pd8action"><i class="fa fa-chevron-down pd9"></i><div class="pd10">свернуть</div></div>
 		</div>	
 		<div class="pd1">
-			<div class="pd2"><img class="pd3" src="assets/img/pd3.png"></div>
-			<div class="pd4">
+			<div class="pd2"><a href="/widex/page6.php"><img class="pd3" src="assets/img/pd3.png"></a></div>
+			<div class="pd4 pd8action">
 				<div class="pd5">Ремонт</div>
 				<div class="pd6">Гарантийный и постгарантийный ремонт и чистка слуховых аппаратов.</div>
 				<div class="pd7">
@@ -116,8 +116,8 @@
 			<div class="pd8 pd8action"><i class="fa fa-chevron-down pd9"></i><div class="pd10">свернуть</div></div>
 		</div>	
 		<div class="pd1">
-			<div class="pd2"><img class="pd3" src="assets/img/pd4.png"></div>
-			<div class="pd4">
+			<div class="pd2"><a href="/widex/page6.php"><img class="pd4" src="assets/img/pd1.png"></a></div>
+			<div class="pd4 pd8action">
 				<div class="pd5">Экспресс-обслуживание</div>
 				<div class="pd6">Замена комплектующий и сушка слуховый аппаратов.</div>
 				<div class="pd7">
