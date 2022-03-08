@@ -1609,16 +1609,45 @@ a:hover {
 .pd13{
     flex-shrink: 0;
 }
-.pd14{}
-.pd15{}
-.pd16{}
-.pd17{}
-.pd18{}
-.pd19{}
+.pd14{
+    display: flex;
+    /* margin: 0 -2rem; */
+}
+.pd15{
+    position: relative;
+}
+.pd16{
+    position: relative;
+}
+.pd16:hover .pd17{color:#09d}
+.pd17{
+    position: absolute;
+    font-size: 2rem;
+    bottom: 1.4rem;
+    right: 1.4rem;
+    color: #333;
+}
+.pd18{
+    padding-left: 3rem;
+}
+.pd19{
+    font-size: 3rem;
+    font-weight: bold;
+}
 
-.pd20{}
-.pd21{}
-.pd22{}
+.pd20{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 3.5rem 0 2.5rem;
+}
+.pd20 span{font-size:2.8rem;color: #09d;}
+.pd21{
+
+}
+.pd22{
+    border: 1px solid #f6f6f6;
+    width: 40rem;
+}
 .pd23{}
 .pd24{}
 .pd25{}
@@ -1637,7 +1666,21 @@ a:hover {
 .pd37{}
 .pd38{}
 .pd39{}
-
+.blueButton {
+	background: #09d;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	padding: 0.5em 2.6em 0.6em;
+	display: table;
+	font-size: 1.5rem;
+	cursor: pointer;
+	font-weight: 500;
+}
+.blueButton:hover{
+    background: #0071b5;
+    text-decoration: none;
+}
 /*------------------------------------*\
 	axd 
 \*------------------------------------*/
@@ -2226,6 +2269,7 @@ a:hover {
 }
 
 @media (max-width: 762px) {
+	.blueButton{font-size:1.8rem}
 	.pd1{
     flex-direction: column;
     align-items: center;
@@ -2256,14 +2300,24 @@ a:hover {
 .pd11{}
 .pd12{}
 .pd13{}
-.pd14{}
+.pd14{
+    flex-direction: column;
+}
 .pd15{}
-.pd16{}
+.pd16{
+    align-self: flex-start;
+}
 .pd17{}
-.pd18{}
-.pd19{}
+.pd18{
+    padding: 0;
+}
+.pd19{
+    margin: 1rem 0 0;
+}
 
-.pd20{}
+.pd20{
+    margin: 2.5rem 0 2.5rem;
+}
 .pd21{}
 .pd22{}
 .pd23{}

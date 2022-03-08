@@ -3,7 +3,7 @@
 <div class="pa1">
 <div class="cwidth">     
 	<div class="pa17"><a href="/widex/" class="pa2">Главная</a><i class="fas fa-chevron-right pa15"></i></div>
-	<div class="pa17"><span class="pa3">Адреса центров</span></div>
+	<div class="pa17"><span class="pa3">Услуги Widex</span></div>
 </div>
 </div>
 
@@ -152,18 +152,7 @@
 	</div>
 </div>
 	
-<div class="pa46"><div class="cwidth">	
-	<div class="pa40">
-		<div class="pa41">
-			<div class="pa44" style="background-image:url('assets/img/41.png')"></div>
-		</div>
-		<div class="pa42">
-			<h3>Консультация специалиста</h3>
-			<p>30-60 минут, за которые вы сможете подобрать слуховой аппарат</p>
-			<div class="pa43">Подобрать слуховой аппарат</div>
-		</div>
-	</div>
-</div></div>
+<?include 'assets/form1.php'?>
 
 
 <?include 'assets/footer.php'?>
