@@ -15,10 +15,13 @@
 <div class="pc16">
 	<div class="cwidth">
 		<div class="pd14">
-			<a class="pd16" href="assets/img/pd5.png" data-fancybox="gallery">
+			<!--<a class="pd16" href="assets/img/pd5.png" data-fancybox="gallery">
 				<img class="pd22" src="assets/img/pd5.png">
 				<i class="fas fa-search pd17"></i>
-			</a>			
+			</a>-->
+			<div class="pd16">
+				<img class="pd22" src="assets/img/pd5.png">
+			</div>			
 			<div class="pd18">
 				<div class="pd19">Изготовление индивидуальных берушей и гидроплагов (акваплагов)</div>
 				<div class="pd20">Стоимость: <span>2 000 ₽</span></div>
